@@ -9,7 +9,12 @@
 
   <ItemGroup>
     <PackageReference Include="fastendpoints" Version="5.29.0" />
+    <PackageReference Include="FastEndpoints.Swagger" Version="5.29.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DL\DL.csproj" />
   </ItemGroup>
 
 </Project>
